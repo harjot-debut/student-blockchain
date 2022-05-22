@@ -153,20 +153,3 @@ echo "################################################"
 peer lifecycle chaincode querycommitted --channelID mychannel --name basic --cafile "${PWD}/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem"
 
 
-# sleep 10
-
-# echo "################################################"
-# echo "Using couchdb"
-# echo "################################################"
-# ./network.sh up -s couchdb
-
-
-# sleep 20
-
-# echo "################################################"
-# echo "INVOKING AND QUERYING CHAINCODE"
-# echo "################################################"
-
-
-
-# ./chaincode-query.sh
