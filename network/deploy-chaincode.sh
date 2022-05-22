@@ -10,7 +10,7 @@ echo "FABRIC_CFG_PATH ==" $FABRIC_CFG_PATH
 peer version
 
 echo "packaging chaincode"
-peer lifecycle chaincode package basic.tar.gz --path ../chaincode/student-record-system/ --lang golang --label basic_1.0
+peer lifecycle chaincode package basic.tar.gz --path ../student-chaincode/student-record-system/ --lang golang --label basic_1.0
 
 sleep 3
 
